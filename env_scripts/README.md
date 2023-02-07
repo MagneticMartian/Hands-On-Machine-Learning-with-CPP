@@ -40,7 +40,7 @@ remember the image ID.
 
 5. Give the name for the new image.
 ```
-docker tag [image id] buildenv_libs`
+docker tag [image id] buildenv_libs
 ```
 
 6. Stop the initial container in the original console session.
