@@ -53,6 +53,8 @@ exit
 docker run -it -v [host_samples_path]:[container_samples_path] buildenv_libs bash
 ```
 
+```[host_samples_path]``` is the directory outside of the container that changes will be saved to (host mount point). ```[container_samples_path]``` is the directory where changes are being made.
+
 8. Samples from chapter 2 require accsess to your graphical environment to show images. You can share you X11 server with a Docker container. The following script shows how to run a container with graphics environment:
 ```
 xhost +local:root
