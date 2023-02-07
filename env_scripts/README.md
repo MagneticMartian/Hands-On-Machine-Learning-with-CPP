@@ -1,7 +1,10 @@
 # Building development environment
 There two main approaches to build development environment:
 1. Configure local computer environment
-2. Create a Docker image and container  
+2. Create a Docker image and container
+
+## Minimum Memory requirements
+The libraries and toolboxes that get built are memory intensive. During the build process make sure that there is enough memory deticated to the system. 12GB is a good rule of thumb.
 
 # Configure you GitHub account first
 To be able to clone 3rd-party repositories you need a [GitHub](https://github.com) account. Then you will be able to configure GitHub authenticating with SSH as it is described in the article [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) this is the preffered way. Or using HTTPS and providing your username and password each time when a new repository will be cloned. Also, If you use 2FA to secure your GitHub account then you’ll need to use a personal access token instead of a password, as explained in the article [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
