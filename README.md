@@ -70,3 +70,5 @@ is a seasoned software engineer with expertise in custom software development. H
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
 
+# Fork information
+This is a personal fork where I (MagneticMartian) am primarily adding notes and making, potentially minor, edits that to the repo in oder to make it more understandable to myself. Hopefully someone stumbling on this will find that to be the case as well.
