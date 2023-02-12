@@ -58,7 +58,7 @@ docker run -it -v [host_samples_path]:[container_samples_path] buildenv_libs bas
 
 ```[host_samples_path]``` is the directory outside of the container that changes will be saved to (host mount point). ```[container_samples_path]``` is the directory where changes are being made. It is best to make these paths absolute. As an example on my development system my call looks like this:
 ```
-docker run -it -v $HOME/MLBuild/dock_env:/development/ buildenv+libs bash
+docker run -it -v $HOME/MLBuild/dock_env:/mnt/ buildenv+libs bash
 ```
 
 8. Samples from chapter 2 require accsess to your graphical environment to show images. You can share you X11 server with a Docker container. The following script shows how to run a container with graphics environment:
